@@ -216,3 +216,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==========================================================
+# AI / ML Project
+# ==========================================================
+
+# Training outputs
+runs/
+
+# Prediction outputs
+output_images/
+
+# Uploaded images
+input_images/images/
+
+# Model checkpoints (keep only trained weights)
+!models/
+!models/weights/
+!models/weights/best.pt
+!models/weights/last.pt
+
+# Streamlit cache
+.streamlit/cache/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

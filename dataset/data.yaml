@@ -1,0 +1,19 @@
+# Dataset Root Path
+path: C:/Users/vigne/Documents/GitHub/skin-issue-detection-and-product-recommendation/dataset
+
+# Train, Validation and Test Sets
+train: train/images
+val: valid/images
+test: test/images
+
+# Number of Classes
+nc: 6
+
+# Class Names
+names:
+  0: Acne
+  1: Black Heads
+  2: Eczema
+  3: Rosacea
+  4: flakiness
+  5: pigmentation
